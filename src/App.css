@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-left, .navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-item {
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar-logo, .navbar-icon {
+  height: 40px;
+  width: 40px;
+}
