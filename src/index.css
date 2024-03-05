@@ -13,11 +13,37 @@ code {
 }
 
 .slider-container {
-  height: 100vh;
+  height: 88vh;
 }
 
 .slider-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.round-border {
+  border-radius: 5%;
+}
+
+.bestseller-container {
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.scrolling-wrapper {
+  display: flex;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  flex-direction: column;
+}
+.bestseller-heading {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  margin-left: 2rem;
 }
