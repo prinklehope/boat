@@ -52,7 +52,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-right">
-          {/* Implement search bar here */}
+          <input type="search" className='search-bar' placeholder=''/>
           <a href="/profile"><img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Profile-1.png?v=1663762989" style={{ width: "22px", height: "22px" }} /></a>
           <a href="/cart"><img src={cart} style={{ width: "1.3rem", marginLeft: "0.5rem" }} alt="Logo" className="navbar-logo" /></a>
         </div>
